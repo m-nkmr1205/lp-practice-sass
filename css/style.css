@@ -22,6 +22,7 @@ a:visited {
   position: fixed;
   top: 0;
   padding: 15px 0;
+  z-index: 1;
 }
 
 .header-inner {
@@ -66,7 +67,7 @@ a:visited {
 .keyvisual-inner {
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
   padding: 400px 0;
-  
+  width: 100%;
 }
 
 .keyvisual-text {
