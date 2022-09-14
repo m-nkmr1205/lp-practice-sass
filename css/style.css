@@ -62,12 +62,11 @@ a:visited {
 /* section keyvisual ここから */
 .keyvisual {
   padding-top: 78px;
+  background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
 }
 
 .keyvisual-inner {
-  background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
   padding: 400px 0;
-  width: 100%;
 }
 
 .keyvisual-text {
@@ -296,6 +295,10 @@ a:visited {
 
 .work-text-area {
   width: 100%;
+}
+
+.skills-area {
+  font-size: 0;
 }
 
 .skills-content {
