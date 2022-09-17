@@ -314,6 +314,10 @@ a:visited {
   margin-bottom: 80px;
 }
 
+.skills-content .skills-list:last-child {
+  margin-bottom: 0;
+}
+
 .plan-inner {
   width: 100%;
 }
