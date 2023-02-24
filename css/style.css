@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-@charset "utf-8";
-
+@charset "UTF-8";
 a {
   text-decoration: none;
 }
@@ -55,12 +52,12 @@ a:visited {
   display: none;
 }
 
-.drawer_open{
+.drawer_open {
   display: none;
 }
+
 /* ハンバーガーメニューここまで */
 /* headerここまで */
-
 /* section keyvisual ここから */
 .keyvisual {
   padding-top: 78px;
@@ -87,8 +84,8 @@ a:visited {
   font-weight: 700;
   color: #ffffff;
 }
-/* section keyvisual ここまで */
 
+/* section keyvisual ここまで */
 /* section work ここから */
 .work {
   background: #e3f2fd;
@@ -121,7 +118,7 @@ a:visited {
   letter-spacing: 10px;
   text-align: center;
   padding-top: 20px;
-  margin-bottom:  35px;
+  margin-bottom: 35px;
 }
 
 .work-text {
@@ -129,8 +126,8 @@ a:visited {
   line-height: 18px;
   word-break: break-all;
 }
-/* section work ここまで */
 
+/* section work ここまで */
 /* section skills ここから */
 .skills {
   padding: 50px 0 70px 0;
@@ -163,7 +160,7 @@ a:visited {
   margin-top: 0;
 }
 
-.skills-content .skills-list:nth-of-type(3n){
+.skills-content .skills-list:nth-of-type(3n) {
   margin-right: 0;
 }
 
@@ -177,8 +174,8 @@ a:visited {
 .skills-img:hover {
   opacity: 1;
 }
-/* section skills ここまで */
 
+/* section skills ここまで */
 /* section plan ここから */
 .plan {
   background: #d0dfea;
@@ -226,8 +223,8 @@ a:visited {
 .plan-table tbody tr:nth-child(even) {
   background: #e0efff;
 }
-/* section plan ここまで */
 
+/* section plan ここまで */
 /* sns ここから */
 .sns {
   background: #e3f2fd;
@@ -252,8 +249,8 @@ a:visited {
 .sns-area a:hover {
   background: #fff;
 }
-/* sns ここまで */
 
+/* sns ここまで */
 /* footer ここから */
 .footer {
   background: #cfd8dc;
@@ -268,136 +265,113 @@ a:visited {
   display: inline-block;
   padding: 20px 0 25px 0;
 }
-/* footer ここまで */
 
+/* footer ここまで */
 /* ここからTAB版レスポンシブ対応 */
 @media screen and (max-width: 1199px) {
-.inner{
-  width: auto;
-  padding: 0 10px;
-  box-sizing: border-box;
+  .inner {
+    width: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .keyvisual-inner {
+    padding: 250px 0;
+  }
+  .work {
+    padding: 50px 0;
+  }
+  .work-inner {
+    flex-direction: column;
+    width: 100%;
+  }
+  .pc-area {
+    width: 100%;
+  }
+  .work-text-area {
+    width: 100%;
+  }
+  .skills-area {
+    font-size: 0;
+  }
+  .skills-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .skills-list {
+    margin: 0;
+  }
+  .skills-content .skills-list:nth-of-type(3n) {
+    margin-bottom: 80px;
+  }
+  .skills-content .skills-list:last-child {
+    margin-bottom: 0;
+  }
+  .plan-inner {
+    width: 100%;
+  }
+  .plan-table {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  /* ここまでTAB版レスポンシブ対応 */
+  /* ここからSP版レスポンシブ対応 */
 }
-
-.keyvisual-inner {
-  padding: 250px 0;
-}
-
-.work {
-  padding: 50px 0;
-}
-
-.work-inner {
-  flex-direction: column;
-  width: 100%;
-}
-
-.pc-area {
-  width: 100%;
-}
-
-.work-text-area {
-  width: 100%;
-}
-
-.skills-area {
-  font-size: 0;
-}
-
-.skills-content {
-  flex-direction: column;
-  text-align: center;
-}
-
-.skills-list {
-  margin: 0;
-}
-
-.skills-content .skills-list:nth-of-type(3n){
-  margin-bottom: 80px;
-}
-
-.skills-content .skills-list:last-child {
-  margin-bottom: 0;
-}
-
-.plan-inner {
-  width: 100%;
-}
-
-.plan-table {
-  width: 100%;
-  box-sizing: border-box;
-}
-/* ここまでTAB版レスポンシブ対応 */
-
-/* ここからSP版レスポンシブ対応 */
-@media screen and (max-width: 767px) {
-.site-menu a {
-  display: none;
-}
-/* ハンバーガーメニューここから */
-/* ハンバーガーアイコンの設置スペース */
-.drawer_open {
-  display: flex;
-  height:40px;
-  width: 25px;
-  align-items: center;
-}
-
-/* ハンバーガーメニューのアイコン */
-.drawer_open span,
-.drawer_open span:before,
-.drawer_open span:after {
-  content: '';
-  display: block;
-  height: 3px;
-  width: 25px;
-  border-radius: 3px;
-  background: #777;
-  position: absolute;
-}
-
-/* 三本線の一番上の棒の位置調整 */
-.drawer_open span:before {
-  bottom: 8px;
-}
-
-/* 三本線の一番下の棒の位置調整 */
-.drawer_open span:after {
-  top: 8px;
-}
-/* ハンバーガーメニューここまで */
-
-.keyvisual-inner {
-  padding: 200px 0;
-}
-
-.title {
-  font-size: 40px;
-}
-
-.subtitle {
-  font-size: 30px;
-}
-
-.plan-table th {
-  font-size: 14px;
-  line-height: 22px;
-}
-
-.plan-table td {
-  font-size: 12px;
-}
-
-.sns {
-  padding: 50px 15px;
-}
-
-.sns-area a {
-  width: 100%;
-  display: list-item;
-  padding: 50px 0;
-}
+@media screen and (max-width: 1199px) and (max-width: 767px) {
+  .site-menu a {
+    display: none;
+  }
+  /* ハンバーガーメニューここから */
+  /* ハンバーガーアイコンの設置スペース */
+  .drawer_open {
+    display: flex;
+    height: 40px;
+    width: 25px;
+    align-items: center;
+  }
+  /* ハンバーガーメニューのアイコン */
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: #777;
+    position: absolute;
+  }
+  /* 三本線の一番上の棒の位置調整 */
+  .drawer_open span:before {
+    bottom: 8px;
+  }
+  /* 三本線の一番下の棒の位置調整 */
+  .drawer_open span:after {
+    top: 8px;
+  }
+  /* ハンバーガーメニューここまで */
+  .keyvisual-inner {
+    padding: 200px 0;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .plan-table th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .plan-table td {
+    font-size: 12px;
+  }
+  .sns {
+    padding: 50px 15px;
+  }
+  .sns-area a {
+    width: 100%;
+    display: list-item;
+    padding: 50px 0;
+  }
 }
 /* ここまでSP版レスポンシブ対応 */
->>>>>>> 77bb5c6b197e3f6810cc93a7888ef6b75cb1d3ff
